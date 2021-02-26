@@ -87,7 +87,7 @@ const FavoriteComponent = (props: types.FavoriteComponentProps) => {
     FavoriteIcon = LabIcon.resolve({ icon: favorite.iconLabel });
   } else {
     // Fallback for favorite using the v1 setting definition
-    if (favorite.contentType === "directory") {
+    if (favorite.contentType === 'directory') {
       FavoriteIcon = folderIcon;
     } else {
       FavoriteIcon = fileIcon;
