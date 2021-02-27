@@ -13,12 +13,13 @@ services:
   - xvfb
 before_install:
 #  - sudo apt-get install xvfb
-  - which node
-  - sudo apt-get purge nodejs
+  - nvm list
+  - nvm use 12.14.1
+#  - sudo apt-get purge nodejs
   - node --version
-  - curl -sL https://deb.nodesource.com/setup_${NODE_VERSION}.x | sudo -E bash -
-  - sudo apt-get install -y nodejs
-  - node --version
+#  - curl -sL https://deb.nodesource.com/setup_${NODE_VERSION}.x | sudo -E bash -
+#  - sudo apt-get install -y nodejs
+#  - node --version
   - wget https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.26.0-linux64.tar.gz
   - sudo tar -xzf geckodriver-v0.26.0-linux64.tar.gz -C /usr/bin
   - sudo chmod a+x /usr/bin/geckodriver
