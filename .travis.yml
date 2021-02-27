@@ -13,6 +13,8 @@ services:
   - xvfb
 before_install:
 #  - sudo apt-get install xvfb
+  - sudo apt-get purge nodejs
+  - node --version
   - curl -sL https://deb.nodesource.com/setup_${NODE_VERSION}.x | sudo -E bash -
   - sudo apt-get install -y nodejs
   - node --version
