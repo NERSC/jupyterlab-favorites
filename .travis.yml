@@ -15,7 +15,6 @@ before_install:
   - wget https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.26.0-linux64.tar.gz
   - sudo tar -xzf geckodriver-v0.26.0-linux64.tar.gz -C /usr/bin
   - sudo chmod a+x /usr/bin/geckodriver
-
 install: 
   - "pip install -r requirements.txt"
   - npm install selenium-webdriver@^3.0.0
