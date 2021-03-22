@@ -19,7 +19,7 @@ HERE = Path(__file__).parent.resolve()
 name = "jupyterlab-favorites"
 python_name = name.replace("-", "_")
 
-lab_path = (HERE / name / "labextension")
+lab_path = (HERE / python_name / "labextension")
 
 # Representative files that should exist after a successful build
 jstargets = [
