@@ -78,7 +78,7 @@
   "jupyterlab": {
     "extension": true,
     "schemaDir": "schema",
-    "outputDir": "jupyterlab-favorites/labextension"
+    "outputDir": "jupyterlab_favorites/labextension"
   },
   "prettier": {
     "singleQuote": true
