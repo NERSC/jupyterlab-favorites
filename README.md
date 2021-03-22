@@ -15,11 +15,6 @@ Add the ability to save favorite folders to JupyterLab for quicker browsing.
 pip install "jupyterlab-favorites==3.0.0"
 ```
 
-### Install directly from git with a wheel file
-```
-pip install https://github.com/NERSC/jupyterlab-favorites/raw/master/dist/jupyterlab_favorites-3.0.0-py3-none-any.whl
-```
-
 ### Install locally from a git checkout
 ```
 git clone https://github.com/NERSC/jupyterlab-favorites.git
