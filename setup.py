@@ -17,6 +17,7 @@ HERE = Path(__file__).parent.resolve()
 
 # The name of the project
 name = "jupyterlab-favorites"
+python_name = name.replace("-", "_")
 
 lab_path = (HERE / name / "labextension")
 
