@@ -1,6 +1,6 @@
 # jupyterlab-favorites
 
-[![Build Status](https://travis-ci.com/NERSC/jupyterlab-favorites.svg?branch=master)](https://travis-ci.com/NERSC/jupyterlab-favorites)
+[![Build Status](https://travis-ci.com/NERSC/jupyterlab-favorites.svg?branch=master)](https://travis-ci.com/NERSC/jupyterlab-favorites)[![Conda Version](https://img.shields.io/conda/vn/conda-forge/jupyterlab-favorites.svg)](https://anaconda.org/conda-forge/jupyterlab-favorites)
 
 Add the ability to save favorite folders to JupyterLab for quicker browsing.
 
@@ -11,13 +11,21 @@ Add the ability to save favorite folders to JupyterLab for quicker browsing.
 * JupyterLab 3.x
 
 ### Install from pypi
+
 ```
 python -m pip install "jupyterlab-favorites==3.0.0"
 ```
 
 ### Install from github
+
 ```
-python -m pip install "git+https://github.com/NERSC/jupyterlab-favorites@v3.0.0#egg=jupyterlab_favorites"
+python -m pip install "git+https://github.com/NERSC/jupyterlab-favorites@v3.0.0#egg=jupyterlab-favorites"
+```
+
+### Install from conda
+
+```
+conda install jupyterlab-favorites
 ```
 
 ### Install locally from a git checkout
