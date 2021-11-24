@@ -1,3 +1,6 @@
+# This repo has been forked to jupyterlab-contrib, where you can find the current version.
+[https://github.com/jupyterlab-contrib/jupyterlab-favorites](https://github.com/jupyterlab-contrib/jupyterlab-favorites)
+
 # jupyterlab-favorites
 
 [![Build Status](https://travis-ci.com/NERSC/jupyterlab-favorites.svg?branch=master)](https://travis-ci.com/NERSC/jupyterlab-favorites)[![Conda Version](https://img.shields.io/conda/vn/conda-forge/jupyterlab-favorites.svg)](https://anaconda.org/conda-forge/jupyterlab-favorites)
